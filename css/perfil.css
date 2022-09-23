@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+
+}
+body {
+    margin: 0;
+    background-color: #8ed1fc;
+    background-position: inherit;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+a{
+    text-decoration: none;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 20px;
+    background-color: #0693e3;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    color: #005386;
+    font-size: 25px;
+}
+.logo-img {
+    height: 90px;
+    margin-right: 25px;
+}
+nav a {
+    text-decoration: none;
+    font-weight: 600;
+    padding-right: 20px;
+    color: #8ed1fc;
+    font-size: 20px;
+}
+nav a:hover {
+    color: #005386;
+}
+.flex {
+    display: flex;
+    box-sizing: border-box;
+}
+.grid-serv {
+    background-color: #404040;
+    padding: 10px;
+    height: 30px;
+    border-radius: 10px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6);
+    font-size: 14;
+    border: 3px solid;
+    display: flex;
+    align-items: center;
+}
+.grid-serv-1 {
+    align-self: flex-start;
+    order: 3;
+    color: red;
+}
+.servicios {
+    margin-top: 60px;
+    height: 300px;
+    align-items: center;
+}
+.title-serv {
+    margin-left: 33%;
+    font-size: 20px;
+}
+.contener-serv {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+}
+.servicios2 {
+    margin-top: 60px;
+    padding: 0 20px;
+}
+.title-serv2 {
+    margin-bottom: 40px;
+    margin-left: 50%;
+    font-size: 20px;
+}
+.contener-serv2 {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+}
+.servicios3 {
+    margin-top: 60px;
+    padding: 0 20px;
+}
+.title-serv3 {
+    margin-bottom: 40px;
+    margin-left: 30%;
+    font-size: 20px;
+}
+.contener-serv3 {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+}
+/* pie
+.pie {
+    height: 50px;
+    padding: 32px;
+    background-color: #C8DD12;
+    bottom: 0;
+    display: flexbox;
+}
+.pie .container-pie {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.pie img {
+    bottom: 0;
+    width: 50px;
+    float: right;
+    margin-left: 30px;
+} */

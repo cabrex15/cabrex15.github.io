@@ -1,0 +1,26 @@
+@media (max-width: 1262px) {
+
+    .hero1-img1 {
+        display: none;
+    }
+    .hero-T1-img {
+        display: none;
+    }
+    .hero-T2-img {
+        display: none;
+    }
+}
+@media (max-width: 767px) {
+    header {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    header nav {
+        display: none;
+    }
+    .card-title {
+        justify-content: center;
+        align-items: center;
+    }
+}
