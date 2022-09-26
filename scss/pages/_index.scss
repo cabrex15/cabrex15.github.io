@@ -1,9 +1,6 @@
 // Hero presentacion
 .hero {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 500px;
+    @extend .container-hero;
     .hero-p {
         margin-top: 0px;
         height: 500px;
@@ -17,17 +14,7 @@
         font-size: 30px;
     }
     .hero1-button {
-        margin-top: 30px;
-        color: white;
-        font-weight: bold;
-        font-size: 15px;
-        padding: 10px 40px;
-        border-radius: 10px;
-        border: none;
-        background-color: $bottons;
-        cursor: pointer;
-        display: flex;
-        margin-left: 70%;
+        @extend .container-hero--botton;
     }
 }
 .hero1-img1-1 {
@@ -35,10 +22,8 @@
 }
 // Hero opciones
 .hero-T1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 500px;
+    @extend .container-hero;
+
     .hero-T {
         display: flex;
         align-items: center;
@@ -69,24 +54,12 @@
         height: 250px;
     }
     .hero2-button {
-        margin-top: 30px;
-        color: white;
-        font-weight: bold;
-        font-size: 15px;
-        padding: 10px 40px;
-        border-radius: 10px;
-        border: none;
-        background-color: $bottons;
-        cursor: pointer;
-        display: flex;
-        margin-left: 70%;
+        @extend .container-hero--botton;
     }
 }
 .hero-T2 {
-    display: flex;
-    height: 500px;
-    justify-content: center;
-    align-items: center;
+    @extend .container-hero;
+
     .hero-T2-conteiner {
         display: flex;
         align-items: center;
@@ -117,16 +90,6 @@
         justify-content: center;
     }
     .hero3-button {
-        margin-top: 30px;
-        color: white;
-        font-weight: bold;
-        font-size: 15px;
-        padding: 10px 40px;
-        border-radius: 10px;
-        border: none;
-        background-color: $bottons;
-        cursor: pointer;
-        display: flex;
-        margin-left: 70%;
+    @extend .container-hero--botton;
     }
 }

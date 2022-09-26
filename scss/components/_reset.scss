@@ -11,3 +11,36 @@ body {
 a{
     text-decoration: none;
 }
+.container-hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+.container-hero--botton {
+    margin-top: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: $bottons;
+    cursor: pointer;
+    display: flex;
+    margin-left: 70%;
+}
+// mixins
+@mixin templateGrid ($columns) {
+    display: grid;
+    grid-template-columns: repeat($columns, 1fr);
+    gap: 50px;
+}
+@mixin templateFlex ($valueJustify, $alignItems) {
+    display: flex;
+    justify-content: $valueJustify;
+
+    @if ($alignItems ==true) {
+        align-items: center;
+    }
+}
