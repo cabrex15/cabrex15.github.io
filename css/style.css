@@ -361,12 +361,34 @@ a {
 
 .registro .button-register {
   color: white;
+  margin-top: 20px;
   font-weight: bold;
   font-size: 15px;
   padding: 10px 40px;
   border-radius: 10px;
   border: none;
   background-color: #FFB900; }
+
+.hero-nos {
+  font-size: 15px;
+  height: 700px;
+  color: white; }
+
+.hero-nos-title {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  font-weight: bold;
+  margin-bottom: 50px; }
+
+.hero-nos-img {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  height: 400px; }
+
+.hero-nos-p {
+  text-align: center; }
 
 @media (max-width: 1262px) {
   .hero1-img1 {

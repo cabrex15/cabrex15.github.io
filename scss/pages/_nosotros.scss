@@ -1,12 +1,21 @@
 .hero-nos {
-    margin-top: 0px;
-    height: 500px;
-    width: 500px;
+    font-size: 15px;
+    height: 700px;
     color: white;
 }
 .hero-nos-title {
-    margin-top: 20%;
     display: flex;
     justify-content: center;
-    font-size: 30px;
+    margin-top: 30px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.hero-nos-img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    height: 400px;
+}
+.hero-nos-p {
+    text-align: center;
 }
